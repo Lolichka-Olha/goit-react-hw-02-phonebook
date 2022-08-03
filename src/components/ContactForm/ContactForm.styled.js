@@ -35,8 +35,7 @@ export const Btn = styled.button`
   padding: 6px;
 
   cursor: pointer;
-  &:hover,
-  &:focus {
+  &:hover {
     background-color: #c2c2c2;
     color: #fff;
   }
