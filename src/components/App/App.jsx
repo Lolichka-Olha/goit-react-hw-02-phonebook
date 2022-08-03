@@ -20,14 +20,16 @@ export class App extends Component {
     const normalizedName = name.toLowerCase();
     const { contacts } = this.state;
 
-    const searchByName = contacts.find(
-      contact => contact.name.toLowerCase() === normalizedName
+    const searchByName = contacts.find(contact =>
+      contact.name.toLowerCase().includes(normalizedName)
     );
     if (searchByName) {
       return alert(`${name} is already in contacts.`);
     }
 
-    const searchByNumber = contacts.find(contact => contact.number === number);
+    const searchByNumber = contacts.find(contact =>
+      contact.number.includes(number)
+    );
     if (searchByNumber) {
       return alert(`${number} is already in contacts.`);
     }
