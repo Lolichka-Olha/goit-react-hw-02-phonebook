@@ -15,10 +15,12 @@ const Container = styled.div`
   h1 {
     font-size: 35px;
     text-shadow: 2px 2px 2px gray;
+    margin: 0;
   }
   h2 {
     font-size: 25px;
     text-shadow: 2px 2px 2px gray;
+    margin: 0;
   }
 `;
 

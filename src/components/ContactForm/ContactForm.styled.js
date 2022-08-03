@@ -8,6 +8,8 @@ export const Form = styled.form`
   border-radius: 5px;
   padding: 10px;
   width: 250px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 `;
 
 export const Input = styled.input`
@@ -18,6 +20,7 @@ export const Input = styled.input`
 `;
 
 export const Label = styled.label`
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

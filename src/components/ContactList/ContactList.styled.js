@@ -11,8 +11,7 @@ export const ListItem = styled.li`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
   :not(:first-of-type) {
     margin-top: 10px;
   }
